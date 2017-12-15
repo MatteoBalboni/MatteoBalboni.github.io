@@ -1,11 +1,31 @@
-body {
+body{
 	background-color: lightblue;
 }
 
 h2{
 	color: blue;
+	text-align: left;
 }
 
-h1#different {
+h1#different{
 	color: grey;
+	text-align: center;
+}
+
+img#nicola{
+	height: 400;
+	width: 293;
+}
+
+img#matteo{
+	height: 400;
+	width: 400;
+}
+
+i{
+	align-self: center;
+}
+
+button{
+	align-items: right;
 }
