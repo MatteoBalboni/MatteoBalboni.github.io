@@ -7,25 +7,21 @@ h2{
 	text-align: left;
 }
 
-h1#grey{
+h1.grey{
 	color: grey;
 	text-align: center;
 }
 
-img#nicola{
-	height: 400;
-	width: 293;
+#nicola{
+	height: 400px;
+	width: 293px;
 }
 
-img#matteo{
-	height: 400;
-	width: 400;
+#matteo{
+	height: 400px;
+	width: 400px;
 }
 
-i.fa{
-	text-align: center;
-}
-
-button.btn{
-	text-align: right;
+button{
+	float: right;
 }
