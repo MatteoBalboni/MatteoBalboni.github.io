@@ -8,11 +8,11 @@ $(document).ready(function() {
 		async : false,
 
 		success : function(data) {
-			$('n_blocks').append(data.blocks);
+			$('#number_blocks').append(data.blocks);
 		},
 
 		error : function(xhr, status, err) {
-			$('n_blocks').append(err+" N/A");
+			$('#number_blocks').append(err+" N/A");
 		}
 	});
 });
