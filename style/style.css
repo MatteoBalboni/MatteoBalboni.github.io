@@ -12,6 +12,10 @@ h1.grey{
 	text-align: center;
 }
 
+h1.grey-left{
+	color: grey;
+}
+
 h2.black{
 	color: black;
 	text-align: left;
