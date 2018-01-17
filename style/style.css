@@ -12,6 +12,11 @@ h1.grey{
 	text-align: center;
 }
 
+h2.black{
+	color: black;
+	text-align: left;
+}
+
 #nicola{
 	margin-left: 0.5cm;
 	height: 400px;
