@@ -31,6 +31,6 @@ $(document).ready(function() {
 				 +data.size + '</td></tr> </table> ';
 
 			}
-			$('#resultat').html( sortie );
+			$('#result').html( sortie );
 			});
 	});
