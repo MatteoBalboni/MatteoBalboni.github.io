@@ -52,3 +52,23 @@ $(document).ready(function() {
 			$('#result').html( b );
 			});
 	});
+
+
+	$('#address').click(function(){
+		$.get( 'https://api.blockcypher.com/v1/btc/main/addrs/' +$('#input2').val(), function(data) {
+				var c = '';
+			if(data.error != undefined){
+				c += data.error;
+			}
+			else{
+				c +="</p><h3> Details of the address</h3> <table class='table'>" 
+				+'<tr><th>Adress</th><td>'+data.address +'</td></tr> <tr><th>Number of satoshis received</th><td>'
+				+data.total_received +'</td></tr> <tr><th>Number of satoshis sent</th><td>'+ data.total_sent  
+				+'</td></tr> <tr><th>Balance</th><td>'+data.balance +'</td></tr> <tr><th>Number of associated transactions</th><td>'
+				+ data.n_tx + '</td></tr> </table> ';
+
+			}
+			$('#result').html( c );
+			});
+	});
+});
